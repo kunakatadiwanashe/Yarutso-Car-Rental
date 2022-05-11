@@ -1,0 +1,124 @@
+.services{
+    padding-top: 20px;
+    h2{
+        font-size: 30px;text-transform: capitalize;text-align: center;padding-bottom: 20px;
+        span{color: #FECC18;}
+    }
+
+    .container{
+        .row{
+            .col-md-3{
+                .card{
+                    width: 300px;margin: 0 auto;margin-bottom: 30px;
+                    img{
+                        height: 190px;
+                    }
+                    .card-body{
+                        background-color: #FF0000;color: #fff;
+                        h4{
+                            font-size: 25px;text-align: center;
+                        }
+                       
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    
+    .services{
+        height: 50vh;
+        h2{
+            font-size: 30px;
+        }
+    
+        .container{
+            .row{
+                .col-md-3{
+                    .card{
+                        width: 100%;
+                        img{
+                            height: 130px;object-fit: contain;
+                        }
+                        .card-body{
+                            h4{
+                                font-size: 25px;text-align: left;
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    
+    .services{
+        height: 70vh;padding-top: 30px;
+        h2{
+            font-size: 40px;padding-bottom: 30px;
+        }
+    
+        .container{
+            .row{
+                .col-md-3{
+                    .card{
+                        width: 100%;
+                        img{
+                            height: 130px;object-fit: cover;
+                        }
+                        .card-body{
+                            h4{
+                                font-size: 25px;text-align: center;
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px) {
+    
+    .services{
+        height: 90vh;padding-top: 30px;display: flex;justify-content: center;align-items: center;flex-direction: column;
+        h2{
+            font-size: 50px;padding-bottom: 80px;
+        }
+    
+        .container{
+            
+            .row{
+                .col-md-3{
+                    .card{
+                        width: 100%;
+                        img{
+                            height: 200px;object-fit: cover;
+                        }
+                        .card-body{
+                            height: 230px;padding-top: 30px;
+                            h4{
+                                font-size: 25px;text-align: center;padding-bottom: 20px;
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+

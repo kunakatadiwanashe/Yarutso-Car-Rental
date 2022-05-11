@@ -1,0 +1,64 @@
+.subscribe{
+    background-color: #E5E5E5;height: 35vh;padding-top: 30px;
+    .container{
+        text-align: center;
+        h2{
+            font-size: 35px;font-family: 'Raleway', sans-serif;padding-bottom: 10px;
+            span{ color: #FECC18;}
+        }
+        p{
+            font-size: 20px;font-family: 'Raleway', sans-serif;padding-bottom: 20px;
+        }
+        form{
+            display: flex;align-items: center;justify-content: center;
+            #mail{
+                height: 30px;outline: none;border: none;background-color: #fff;font-family: 'Raleway', sans-serif;
+                border-radius: 5px 0px 0px 5px;padding-left: 10px;
+            }
+            #submit{
+                height: 30px;outline: none;border: none;color: #fff;font-family: 'Raleway', sans-serif;
+                background: #FF0000;border-radius: 5px;width: 25%;
+            }
+        }
+    }
+}
+
+
+@media screen and(min-width:768px) {
+
+    .subscribe{
+        height: 20vh;padding-top: 30px;display: flex;justify-content: center;align-items: center;
+        .container{
+           
+            h2{
+                font-size: 40px;padding-bottom: 15px;
+                
+            }
+            p{
+                font-size: 20px;
+            }
+            form{
+                #mail{
+                    height: 45px;padding-left: 15px;font-size: 20px;width: 40%;
+                }
+                #submit{
+                    height: 45px;width: 20%;font-size: 20px;
+                }
+            }
+        }
+    }
+    
+}
+
+
+@media screen and(min-width:768px) {
+    .subscribe{
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .subscribe{
+        height: 50vh;
+    }
+}

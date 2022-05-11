@@ -1,0 +1,102 @@
+.ourvehicle{
+    .container{
+        p{
+            font-size: 20px;;text-transform: capitalize;
+            padding-bottom: 10px;
+        }
+        h2{
+            font-size: 30px;text-transform: capitalize;padding-bottom: 20px;
+            span{
+                color: #FECC18;
+            }
+        }
+
+        .card{
+            margin: 0 auto;background: #E5E5E5;margin-bottom: 30px;
+            .card-body{
+                background-color: #fff;
+                h5{
+                    font-weight: bold;font-size: 22px;
+                }
+                .card-text{
+                    font-weight: bold;
+                    span{font-weight: lighter;}
+                }
+                .btn{
+                    background: #FF0000; border-radius: 5px;color:  #fff;;text-transform: capitalize;font-size: 20px;
+                    
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width:768px) {
+    
+    .ourvehicle{
+        .container{
+            p{
+                font-size: 20px;;text-transform: capitalize;
+                padding-bottom: 10px;
+            }
+            h2{
+                font-size: 30px;text-transform: capitalize;padding-bottom: 20px;
+                span{
+                    color: #FECC18;
+                }
+            }
+    
+          .row{
+              
+            .card{
+                width: 100%;
+                .card-body{
+                   
+                    h5{
+                        font-size: 22px;
+                    }
+                    .card-text{
+                        font-size: 20px;
+                    }
+                    .btn{
+                      font-size: 20px;
+                        
+                    }
+                }
+            }
+          }
+
+        }
+    }
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .ourvehicle{
+        height: 100vh;background-color: #E5E5E5;display: flex;justify-content: center;align-items: center;
+     .container{
+         p{
+             font-size: 30px;
+         }
+         h2{
+             font-size: 50px;
+         }
+         .row{
+             .card{
+                 .card-body{
+                                height: 250px; 
+                                .card-text{
+                                    padding-bottom: 20px;
+                                }
+                     .btn{
+                         width: 50%;margin-left: 50%;transform: translate(-50%,30%);
+                     }
+                 }
+             }
+         }
+     }
+    }
+}
