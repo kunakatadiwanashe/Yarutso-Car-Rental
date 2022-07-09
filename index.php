@@ -1,99 +1,17 @@
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <!-- fonts -->
-
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-
-    <link rel="icon" type="image/png" href="./img/logo.png" />
-    <title>Yarutso Car Rental</title>
-    <link rel="stylesheet" href="./css/style.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-
-</head>
-
-<body>
+<?php get_header(); ?>
 
 
 
 
+<section class="banner">
 
-    <header style="position: fixed;z-index: 999;">
+      <video playsinline loop autoplay  width="100%" controls poster="./img/banner.png">
+        <source src="<?php echo get_template_directory_uri(); ?>./img/2022_05_06_16_05_IMG_2777.mp4"  />
+      </video>
 
-        <nav class="nav">
-            <div class="container" style="display: flex;justify-content: space-between;">
-                <div class="logo">
-                    <a href="#" style="color: #fff;text-decoration:none;"> <img  src="./img/logo.png" alt=""></a>
-                </div>
-                <div id="mainListDiv" class="main_list">
-                    <ul class="navlinks">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/policy">Policy</a></li>
-                        <li><a href="/our-fleets">Our Fleats</a></li>
-                        <li><a href="faqs">FAQS</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="color: red;font-size: 1.5rem;">
-                            Booking
-                          </button></li>
-                    </ul>
-                </div>
-                <span class="navTrigger">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
-            </div>
-        </nav>
+      <h1><span>Spend</span>  less and hire the best</h1>
 
-        <section class="home">
-        </section>
-
-
-
-    </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="banner">
-
-        <video playsinline loop autoplay width="100%" controls poster="./img/banner.png">
-            <source src="./img/2022_05_06_16_05_IMG_2777.mp4" />
-        </video>
-
-        <h1><span>Spend</span> less and hire the best</h1>
-
-    </section>
+</section>
 
 
 
@@ -106,7 +24,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="card">
-                        <img class="card-img-top" src="./img/obi-onyeador-aZKJEvydrNM-unsplash 5.png" alt="Card image">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>./img/obi-onyeador-aZKJEvydrNM-unsplash 5.png" alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">CompanyContract</h4>
                             <p class="card-text">
@@ -123,7 +41,7 @@
 
                 <div class="col-md-3">
                     <div class="card">
-                        <img class="card-img-top" src="./img/brock-wegner-pWGUMQSWBwI-unsplash 2.png" alt="Card image">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>./img/brock-wegner-pWGUMQSWBwI-unsplash 2.png" alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">Chauffer services</h4>
                             <p class="card-text">
@@ -140,7 +58,7 @@
 
                 <div class="col-md-3">
                     <div class="card">
-                        <img class="card-img-top" src="./img/obi-onyeador-aZKJEvydrNM-unsplash 5.png" alt="Card image">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>./img/obi-onyeador-aZKJEvydrNM-unsplash 5.png" alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">One Way Rental</h4>
                             <p class="card-text">
@@ -157,7 +75,7 @@
 
                 <div class="col-md-3">
                     <div class="card">
-                        <img class="card-img-top" src="./img/png16-removebg-preview 2.png" alt="Card image">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>./img/png16-removebg-preview 2.png" alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">Corporate Driver</h4>
                             <p class="card-text">
@@ -185,7 +103,7 @@
 
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="./img/images-removebg-preview (1) 1.png" class="card-img-top" alt="...">
+                        <img src="<?php echo get_template_directory_uri(); ?>./img/images-removebg-preview (1) 1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p>registered</p>
                             <h5 class="card-title">Nissan xtrail 2004</h5>
@@ -198,7 +116,7 @@
 
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="./img/images-removebg-preview (1) 1.png" class="card-img-top" alt="...">
+                        <img src="<?php echo get_template_directory_uri(); ?>./img/images-removebg-preview (1) 1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p>registered</p>
                             <h5 class="card-title">Nissan xtrail 2004</h5>
@@ -211,7 +129,7 @@
 
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="./img/images-removebg-preview (1) 1.png" class="card-img-top" alt="...">
+                        <img src="<?php echo get_template_directory_uri(); ?>./img/images-removebg-preview (1) 1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p>registered</p>
                             <h5 class="card-title">Nissan xtrail 2004</h5>
@@ -224,7 +142,7 @@
 
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="./img/images-removebg-preview (1) 1.png" class="card-img-top" alt="...">
+                        <img src="<?php echo get_template_directory_uri(); ?>./img/images-removebg-preview (1) 1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p>registered</p>
                             <h5 class="card-title">Nissan xtrail 2004</h5>
@@ -244,12 +162,25 @@
 
     <section class="welcome">
         <div class="container">
+            <div class="inner">
+                <p>making your trip enjoyable</p>
+                <h2>welcome to <span>yarutso car rental</span></h2>
+                <p>
+                    At affordable prices we can drive you anywhere. To work,
+                    to your exams, to the airport , to do grocery shopping or
+                    even to the hospital. We are your viable option.
+                </p>
+            </div>
+
+            <div class="inner-2">
+                <img src="<?php echo get_template_directory_uri(); ?>./img/roland-denes-EWf48MRVUNE-unsplash 1.png" alt="">
+            </div>
 
             <div class="row">
                 <div class="col-md-3">
                     <div class="inner">
                         <div class="icon">
-                            <img src="./img/car-insurance 1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/car-insurance 1.png" alt="">
                         </div>
                         <h4>transparent insurance cover</h4>
                         <p>
@@ -262,7 +193,7 @@
                 <div class="col-md-3">
                     <div class="inner">
                         <div class="icon">
-                            <img src="./img/car-insurance 1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/car-insurance 1.png" alt="">
                         </div>
                         <h4>transparent insurance cover</h4>
                         <p>
@@ -274,7 +205,7 @@
                 <div class="col-md-3">
                     <div class="inner">
                         <div class="icon">
-                            <img src="./img/car-insurance 1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/car-insurance 1.png" alt="">
                         </div>
                         <h4>Flexible pricing packages</h4>
                         <p>
@@ -287,7 +218,7 @@
                 <div class="col-md-3">
                     <div class="inner">
                         <div class="icon">
-                            <img src="./img/car-insurance 1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/car-insurance 1.png" alt="">
                         </div>
                         <h4>Unlimited kilometres</h4>
                         <p>
@@ -302,6 +233,60 @@
     </section>
 
 
+    <section class="brands">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="inner">
+                        <img src="<?php echo get_template_directory_uri(); ?>./img/2012-honda-fit-5dr-hb-auto-angular-front-exterior-view_100366379_h-removebg-preview 1.png"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="inner">
+                        <h3> <span>$</span> 40.00</h3>
+                        <p id="day">rent per day</p>
+                        <p><i class="fa fa-facebook"></i>model: sedan</p>
+                        <p>doors: 4</p>
+                        <p>seats: 5</p>
+                        <p>transmission: automatic</p>
+
+                        <div class="bok">
+                            <a href="<?php echo get_template_directory_uri(); ?>./Booking.html">book now</a>
+                            <p>0782 255 216</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="logs">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="inner">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/toyota_1-removebg-preview 1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="inner">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/nissan-removebg-preview 1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="inner">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/onda-removebg-preview 1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <section class="plan">
         <div class="container">
@@ -312,7 +297,7 @@
                 <div class="col-md-4">
                     <div class="inner">
                         <div class="icon">
-                            <img src="./img/car 1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/car 1.png" alt="">
                         </div>
                         <h3>select a car</h3>
                         <p>Lorem ipsum dolor sit amet
@@ -324,7 +309,7 @@
                 <div class="col-md-4">
                     <div class="inner">
                         <div class="icon">
-                            <img src="./img/support 1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/support 1.png" alt="">
                         </div>
                         <h3>contact operator</h3>
                         <p>Lorem ipsum dolor sit amet
@@ -336,7 +321,7 @@
                 <div class="col-md-4">
                     <div class="inner">
                         <div class="icon">
-                            <img src="./img/drive 1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>./img/drive 1.png" alt="">
                         </div>
                         <h3>collect & driver</h3>
                         <p>Lorem ipsum dolor sit amet
@@ -384,164 +369,4 @@
 
 
 
-
-
-<!-- Tab links -->
-<div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-  </div>
-  
-  <!-- Tab content -->
-  <div id="London" class="tabcontent">
-    <h3>London</h3>
-    <p>London is the capital city of England.</p>
-  </div>
-  
-  <div id="Paris" class="tabcontent">
-    <h3>Paris</h3>
-    <p>Paris is the capital of France.</p>
-  </div>
-  
-  <div id="Tokyo" class="tabcontent">
-    <h3>Tokyo</h3>
-    <p>Tokyo is the capital of Japan.</p>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Book Your Ride</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-    <footer>
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="inner-log">
-                        <div class="logo">
-                            <img src="./img/logo.png" alt="">
-                        </div>
-                        <div class="links">
-                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                            <a href=""><i class="fa-brands fa-twitter"></i></a>
-                            <a href=""><i class="fa-brands fa-instagram"></i></a>
-                            <a href=""><i class="fa-brands fa-facebook"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="inner">
-                        <h3>quick links</h3>
-                        <a href="">about us</a>
-                        <a href="./Ourfleet.html">our fleet</a>
-                        <a href="./Booking.html">bookings</a>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="inner">
-                        <h3>support</h3>
-                        <a href="./FAQS.html">FAQS</a>
-                        <a href="./Policy.html">policy</a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="inner">
-                        <h3>for booking</h3>
-                        <p>797 grosvenor <span>highlands</span></p>
-                        <a href="">email us</a>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="copyright">
-                <p>copyright @ Yarutso.all rights reserved</p>
-                <p>website designed by levitate digital</p>
-            </div>
-        </div>
-    </footer>
-
-
-    
-
-    <script>
-        $('.navTrigger').click(function () {
-            $(this).toggleClass('active');
-            console.log("Clicked menu");
-            $("#mainListDiv").toggleClass("show_list");
-            $("#mainListDiv").fadeIn();
-
-        });
-
-
-        $(window).scroll(function () {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-    </script>
-
-
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="./js/main.js"></script>
-
-
-</body>
-
-</html>
+    <?php get_footer(); ?>
